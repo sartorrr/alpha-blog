@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Page</title>
+
+	<style type="text/css">
+	
+	.break {
+		clear: both;
+	}
+
+	#header {
+		height: 100px;
+		width: 100%;
+		background-color: #F8E0ED;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 100px;
+	}
+
+	.jumbotron {
+		width: 100%;
+		height: 340px;
+		background-image: url("http://michellesread.com/files/2013/04/smile.jpg");
+	}
+	
+	#leftside {
+		float:left;
+		width: 50%;
+	}
+
+	#rightside {
+		float: right;
+		width: 50%;
+	}
+	
+	#footer {
+		width: 100%;
+		height: 50px;
+		background-color: #F8E0ED;
+		text-align: center;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>This is the main header for the page</h1>
+	</div>
+	
+	<%= link_to 'About', about_path %>
+	
+	<div class="jumbotron">
+		
+	</div>
+
+	<div class="content">
+		<div id="leftside">
+			<h3>Here is the content on the left side of the page</h3>
+			<p>Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. </p>
+		</div>
+
+		<div id="rightside">
+			<h3>Here is the content on the right side of the page</h3>
+			<p>Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. Some content. </p>
+		</div>
+	</div>
+
+	<div class="break"></div>
+
+	<footer id="footer">
+		<h2>This is the footer</h2>
+	</footer>
+
+</body>
+</html>
